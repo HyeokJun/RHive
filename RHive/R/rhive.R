@@ -116,7 +116,7 @@ rhive.env <- function(ALL=FALSE) {
 
 	if(!is.null(slaves)) {
 		cat(sprintf("Default RServe List\n"))
-		cat(sprintf("%s", unlist(slaves)))
+		cat(sprintf("%s\n", unlist(slaves)))
 
 		port <- 6311
 		
